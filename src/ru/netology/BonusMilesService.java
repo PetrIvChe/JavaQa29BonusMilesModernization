@@ -1,9 +1,9 @@
 package ru.netology;
 
 public class BonusMilesService {
-    public int calculate(int price) {
-        int rublesPerMiles = 20;
-        int miles = price / rublesPerMiles;
+    public int calculate(int cost) {
+        
+        int miles = cost / 20;
         return miles;
     }
 }
